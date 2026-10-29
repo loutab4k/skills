@@ -26,14 +26,15 @@ Done when every checkout you touched has a WIP commit or a file list.
 
 ## 3. List the running work
 
-List every piece of work still running, each with its resume step. In a handoff, children have finished (the handoff branch above waits for them) and only background commands may still run: record those the same way, and the resume step is what the next session does.
+List every piece of work still running, each with its resume step. In a handoff, children have finished (the handoff branch above waits for them) and only background commands, loops and cron jobs may still run: record those the same way, and the resume step is what the next session does.
 
 | Kind | Record | Resume after the restart |
 |---|---|---|
 | Child (Agent tool) | agent id or name, its task | in the same session resumed, `SendMessage` to the same agent, which keeps its history; Explore and Plan agents are one-shot, and an agent from another session is lost: run those again |
 | Background command or Monitor | the exact command line, its output file | the shutdown ends it: check whether its effect landed (its output file, `git log`, `gh run view`); rerun in the background only a command that is safe to repeat, otherwise ask the owner |
+| `/loop` or `CronCreate` job | its ID (from `CronList`), schedule and prompt | before the handoff, end it: `CronDelete` for a `CronCreate` job or an interval `/loop`, `ScheduleWakeup` with `stop: true` for a dynamic `/loop`; the next session starts it again only if the task still needs it. A durable job the owner asked for stays: record it only |
 
-Done when every child you launched and every background command you started in this session is in the table or known to have ended.
+Done when every child you launched, every background command and every loop or cron job you started in this session is in the table or known to have ended.
 
 ## 4. Update the status note
 

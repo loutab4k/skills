@@ -11,7 +11,7 @@ Decide whether an idea earns building: **build**, **don't build**, or **test fir
 
 1. Read [LENSES.md](LENSES.md), the question bank. Read [NOTES.md](NOTES.md) too: each owner note adds its question to the lens it names.
 2. Restate the idea in one sentence (who, which job, what changes for them) and have the owner confirm it.
-3. Interview with the `mattpocock-grilling` skill: its rounds, frontier and recommended answers. Put each round's decisions through the client's question tool when it has one (AskUserQuestion: 2–4 options, recommended first), otherwise as plain questions. Walk the lenses in order. Facts you can look up (competitors, prices, our analytics, code, support history) are yours to find.
+3. Interview with the `mattpocock-grilling` skill: its rounds, frontier, recommended answers and text format. Walk the lenses in order. Facts you can look up (competitors, prices, our analytics, code, support history) are yours to find.
 4. Push back on every vague answer until it names **past behaviour**: what a real person did, paid or switched from, when, and what it cost them. Opinions, compliments, forecasts and "users would" are signals to dig, never evidence: ask for the last concrete instance.
 5. A lens is settled when each question has an evidenced answer or is written down as an open assumption. Stop when every lens is settled, then write the verdict.
 
