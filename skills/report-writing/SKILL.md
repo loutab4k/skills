@@ -23,7 +23,7 @@ Write it in the `mattpocock-pr` skill's sections (Summary, Evidence, Merge Dange
 
 - Open with the result. When more than five files change, add the **reading order**: which files to read first and which changes are mechanical.
 - Summary: a sketch of the mechanism (a diff sketch, pseudocode or a call tree) for a change to logic; a removal or a rename gets a short list instead.
-- Evidence: each acceptance criterion with its one-line evidence. A behaviour change also shows **before** (the base) and **after** (the branch) for one scenario: test names, output or a manual run. When a user sees the change, before and after are screenshots attached to the PR, taken with test data only. Longer evidence goes to a linked review comment or report.
+- Evidence: each acceptance criterion with its one-line evidence. A behaviour change also shows **before** (the base) and **after** (the branch) for one scenario: test names, output or a manual run. When a user sees the change, before and after are screenshots attached to the PR, taken with test data only; when nothing can capture that surface, say so and give the other evidence. Longer evidence goes to a linked review comment or report.
 - Merge Danger: **Door** (one-way or two-way, naming the live steps to reverse), **Blast Radius**, **Known limits** and **Left out** when there are any, and **Failure detection**: how a failure after merge would be noticed (a check, a hook refusal, a log, or "silent").
 - The free text stays within about 250 words; the template's own text, the sketch, the evidence and Merge Danger do not count. Count the words before publishing.
 
