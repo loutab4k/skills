@@ -11,7 +11,7 @@ If a `BINDINGS.md` sits next to this file, read it first: it names this host's f
 
 ## Record a confirmed mistake
 
-Record it in the same task, before the final reply; a remark from the owner confirms a mistake too.
+Record it in the same task, before the final reply; a remark from the owner confirms a mistake too. The entry is its own commit in the change the task ships, before that change merges; once that change has merged, keep the entry in the status note and commit it with the next change to that repository, on its own only when it cannot wait.
 
 1. Find the entry whose trigger covers the situation: `rg -n '^## When' <log>`. When one does, the mistake is a **repeat**: go to step 3.
 2. Add one entry of at most 6 lines:
