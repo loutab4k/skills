@@ -19,9 +19,9 @@ Record it in the same task, before the final reply; a remark from the owner conf
    - the rule, in one line;
    - `Evidence:`, in one line or a link;
    - `Enforced by:`, last, naming the check, test or hook that refuses the mistake, or `judgment`.
-3. A repeat goes into the existing entry (its rule and its `Evidence:` line), never as a new paragraph. A repeated `judgment` entry needs a check, or the owner's decision to keep judgment written on its `Enforced by:` line, as in `judgment (repeated, owner decision 10-25)` or ``judgment (repeated); `tests/x.sh` covers it``.
+3. A repeat goes into the existing entry (its rule and its `Evidence:` line), never as a new paragraph. A repeated `judgment` entry needs a check, or the owner's decision to keep judgment written with its date on its `Enforced by:` line, as in `judgment (repeated, owner decision 10-25)` or ``judgment (repeated); `tests/x.sh` covers it``. A decision covers the evidence up to its date: a repeat after it needs a check or a fresh decision from the owner. A check named on the same line goes outside the decision's parentheses, or before a decision without them.
 
-Done when the entry has its heading, rule, `Evidence:` and `Enforced by:` lines within 6 lines, and the log stays within its caps below.
+Done when the entry has its heading, rule, `Evidence:` and `Enforced by:` lines within 6 lines, a decision on it is no older than its newest evidence, and the log stays within its caps below.
 
 ## Keep the log small
 
