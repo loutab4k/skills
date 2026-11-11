@@ -21,7 +21,7 @@ npx skills@latest add loutab4k/skills
 
 ## Host bindings
 
-Five skills read an optional `BINDINGS.md` next to their `SKILL.md`. Put your own paths, checks and tools there, and the published text stays generic. This repo never ships a `BINDINGS.md`.
+Six skills read an optional `BINDINGS.md` next to their `SKILL.md`. Put your own paths, checks and tools there, and the published text stays generic. This repo never ships a `BINDINGS.md`.
 
 Some skills name skills by other authors with an author prefix, such as `mattpocock-pr`; install those separately.
 
@@ -31,6 +31,7 @@ Some skills name skills by other authors with an author prefix, such as `mattpoc
 - **[explain](./skills/explain/SKILL.md)** — explains a topic, a codebase area or an agent's output in the form the reader takes in fastest, from plain text to an interactive page.
 - **[glossary](./skills/glossary/SKILL.md)** — canonical words for the agent setup, UI, testing and Git and CI, each with the words to avoid.
 - **[mistakes-log](./skills/mistakes-log/SKILL.md)** — turns each confirmed agent mistake into a short lesson, with its format, repeat rule, caps and retirement.
+- **[new-ui](./skills/new-ui/SKILL.md)** — designs a new product's UI or a redesign with the owner through references, one signature move and a live demo loop.
 - **[owner-procedure](./skills/owner-procedure/SKILL.md)** — rehearses a multi-step procedure before handing it to the owner to run, and marks each step that could not run.
 - **[park](./skills/park/SKILL.md)** — checkpoints all work so the next session resumes instead of redoing it.
 - **[product-thinking](./skills/product-thinking/SKILL.md)** — a hard-question interview on a product idea that ends in build, don't build or test first.
