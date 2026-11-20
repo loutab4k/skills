@@ -11,7 +11,7 @@ If a `BINDINGS.md` sits next to this file, read it first: it names this host's f
 
 | File | Area |
 |---|---|
-| [agent-system.md](agent-system.md) | roles, handover, memory, development cycle, review, reports, guards |
+| [agent-system.md](agent-system.md) | environments, roles, handover, memory, development cycle, review, reports, guards |
 | [ui-layout.md](ui-layout.md) | layout and spacing, typography, color and surface |
 | [ui-components.md](ui-components.md) | overlays, menus, messages, disclosure, controls |
 | [ui-interaction.md](ui-interaction.md) | states, navigation and scroll, forms, motion beyond Emil's, accessibility |

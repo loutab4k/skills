@@ -1,8 +1,18 @@
 # Agent-system vocabulary
 
-The words of the owner's agent setup: who works, how work is handed over and remembered, and how a change is verified, reviewed and reported. The always-loaded core glossary, where the host has one, holds the short form of the most used terms; this file holds every term in full. Sources: the core rules, the engineering rules, the routing rules, the `park` skill and the `mistakes-log` and `report-writing` skills.
+The words of the owner's agent setup: where agents work, who works, how work is handed over and remembered, and how a change is verified, reviewed and reported. The always-loaded core glossary, where the host has one, holds the short form of the most used terms; this file holds every term in full. Sources: the core rules, the engineering rules, the routing rules, the `park` skill and the `mistakes-log` and `report-writing` skills.
 
 ## Language
+
+### Environments
+
+**Mac work environment**:
+The owner's whole setup on the Mac as dotfiles configures it: apps, settings, agent sessions that run directly on the Mac, and the parts of the software factory that run on the bare Mac (T3 Code, the test runner, the updater, OrbStack). The owner says «рабочая среда Mac».
+_Avoid_: host, workspace (for the Mac)
+
+**Software factory**:
+The Docker environment on the Mac where agents develop software, named after its persistent workspace container `t3-docker`, where checkouts live and agents work; it also holds the disposable test containers that check commits. The owner says «фабрика разработки ПО» or «t3-docker».
+_Avoid_: workspace (for the whole factory; it names only the persistent container), рабочая среда (for the factory), sandbox
 
 ### People and agents
 
